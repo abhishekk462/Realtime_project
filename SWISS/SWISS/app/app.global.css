@@ -1,0 +1,434 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+ @font-face {
+  font-family: 'Abel';
+  src: url('./Abel.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?pm6smr');
+  src:  url('fonts/icomoon.eot?pm6smr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pm6smr') format('truetype'),
+    url('fonts/icomoon.woff?pm6smr') format('woff'),
+    url('fonts/icomoon.svg?pm6smr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-trash_icon::before {
+  content: "\e911";
+}
+.icon-assort_icon::before {
+  content: "\e900";
+}
+.icon-mix_icon::before {
+  content: "\e901";
+}
+.icon-solid_icon::before {
+  content: "\e902";
+}
+.icon-swiss_icon::before {
+  content: "\e903";
+  color: #3fba9f;
+}
+button:first-letter {text-decoration:underline;}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?glfwr2');
+  src:  url('fonts/icomoon.eot?glfwr2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?glfwr2') format('truetype'),
+    url('fonts/icomoon.woff?glfwr2') format('woff'),
+    url('fonts/icomoon.svg?glfwr2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-minimize_icon:before {
+  content: "\e900";
+}
+.icon-back_icon:before {
+  content: "\e902";
+}
+.icon-barcode_icon:before {
+  content: "\e903";
+}
+.icon-carton_icon:before {
+  content: "\e904";
+}
+.icon-close_icon:before {
+  content: "\e905";
+}
+.icon-copy_icon:before {
+  content: "\e906";
+}
+.icon-download_icon:before {
+  content: "\e907";
+}
+.icon-help_icon:before {
+  content: "\e908";
+}
+.icon-maximize_icon .path1:before {
+  content: "\e909";
+  color: rgb(6, 7, 7);
+}
+.icon-maximize_icon .path2:before {
+  content: "\e90a";
+  margin-left: -0.9951171875em;
+  color: rgb(8, 8, 8);
+}
+.icon-mix_icon:before {
+  content: "\e90b";
+}
+.icon-play_icon:before {
+  content: "\e90c";
+}
+.icon-scanner_icon:before {
+  content: "\e90d";
+}
+.icon-settings_icon:before {
+  content: "\e90e";
+}
+.icon-solid_icon:before {
+  content: "\e90f";
+}
+.icon-swiss_icon:before {
+  content: "\e910";
+  color: #3fba9f;
+}
+.icon-trash_icon24:before {
+  content: "\e911";
+}
+.icon-upload_icon:before {
+  content: "\e912";
+}
+
+body {
+  position: relative;
+  color: #151515;
+  height: 100vh;
+  background-color: #e6e6e6;
+  font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #151515;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #151515;
+  opacity: 0.75;
+  text-decoration: none;
+}
+[class^="icon-"], [class*=" icon-"] {
+ 
+ 
+  line-height: 2 !important;
+
+}
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background: #3fba9f !important;
+  color: rgba(255,255,255,.9);
+}
+.ui.secondary.pointing.menu {
+ 
+  border-bottom: 1px solid rgba(34,36,38,.15) !important;
+  font-size: 19px !important;
+}
+.ui.segment {
+   
+  border-radius:0px !important;
+}
+.ui.divided.grid:not([class*="vertically divided"])>.row>.column {
+   -webkit-box-shadow: none !important; 
+   box-shadow: none !important; 
+}
+
+.ui.button {
+  font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.ui.grid [class*="left floated"].column {
+  margin-right: auto;
+  width: 22.25%!important;
+}
+#Modal__header__29zKO {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 13px;
+  font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.ui.input>input {
+  font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+.dimmed.dimmable>.ui.animating.dimmer, .dimmed.dimmable>.ui.visible.dimmer, .ui.active.dimmer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.86;
+}
+@media only screen and (min-width: 992px)
+{
+.ui.modal {
+    width: 436px;
+    margin: 0;
+}
+
+}
+.ui.icon.input>i.icon:after, .ui.icon.input>i.icon:before {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+  margin-top: -.5em;
+}
+button:first-letter {text-decoration:underline;}
+
+.icon-restore_icon:before {
+  content: "\e913";
+}
+.icon-minimize_icon:before {
+  content: "\e900";
+}
+.icon-assort_icon:before {
+  content: "\e901";
+}
+.icon-back_icon:before {
+  content: "\e902";
+}
+.icon-barcode_icon:before {
+  content: "\e903";
+}
+/*.icon-carton_icon:before {
+  content: "\e904";
+}*/
+.icon-close_icon:before {
+  content: "\e905";
+}
+.icon-copy_icon:before {
+  content: "\e906";
+}
+.icon-download_icon:before {
+  content: "\e907";
+}
+.icon-help_icon:before {
+  content: "\e908";
+}
+.icon-maximize_icon .path1:before {
+  content: "\e909";
+  color: rgb(6, 7, 7);
+}
+.icon-maximize_icon .path2:before {
+  content: "\e90a";
+  margin-left: -0.9951171875em;
+  color: rgb(8, 8, 8);
+}
+.icon-mix_icon:before {
+  content: "\e90b";
+}
+.icon-play_icon:before {
+  content: "\e90c";
+}
+.icon-scanner_icon:before {
+  content: "\e90d";
+}
+.icon-settings_icon:before {
+  content: "\e90e";
+}
+.icon-solid_icon:before {
+  content: "\e90f";
+}
+.icon-swiss_icon:before {
+  content: "\e910";
+  color: #3fba9f;
+}
+.icon-trash_icon24:before {
+  content: "\e911";
+}
+.icon-upload_icon:before {
+  content: "\e912";
+}
+.dimmed.dimmable>.ui.animating.dimmer, .dimmed.dimmable>.ui.visible.dimmer, .ui.active.dimmer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1.86 !important;
+}
+.ui.form .field>label {
+ 
+  font-size: 1.4em;
+  font-weight: 700;
+  text-transform: none;
+  float: left!important
+}
+#Modal__Nobtn__1vqb9 {
+  font-size: 17px !important;
+  border-radius: 27px;
+  font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.ui.header:first-child {
+  margin-top: -.14285714em;
+  margin-bottom: -22px;
+}
+#Modal__Nobtn__1vqb9 {
+  font-size: 17px !important;
+  border-radius: 27px;
+font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  margin-top: 10px;
+}
+.ui.secondary.inverted.menu .active.item {
+  /* background: rgba(255,255,255,.15); */
+  color: #fff!important;
+  background-color:#0b9275 ;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?aeoxn5');
+  src:  url('fonts/icomoon.eot?aeoxn5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?aeoxn5') format('truetype'),
+    url('fonts/icomoon.woff?aeoxn5') format('woff'),
+    url('fonts/icomoon.svg?aeoxn5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add_icon:before {
+  content: "\e914";
+}
+.icon-restore_icon:before {
+  content: "\e913";
+}
+.icon-minimize_icon:before {
+  content: "\e900";
+}
+.icon-assort_icon:before {
+  content: "\e901";
+}
+.icon-back_icon:before {
+  content: "\e902";
+}
+.icon-barcode_icon:before {
+  content: "\e903";
+}
+.icon-carton_icon:before {
+  content: "\e904";
+}
+.icon-close_icon:before {
+  content: "\e905";
+}
+.icon-copy_icon:before {
+  content: "\e906";
+}
+.icon-download_icon:before {
+  content: "\e907";
+}
+.icon-help_icon:before {
+  content: "\e908";
+}
+.icon-maximize_icon .path1:before {
+  content: "\e909";
+  color: rgb(6, 7, 7);
+}
+.icon-maximize_icon .path2:before {
+  content: "\e90a";
+  margin-left: -0.9951171875em;
+  color: rgb(8, 8, 8);
+}
+.icon-mix_icon:before {
+  content: "\e90b";
+}
+.icon-play_icon:before {
+  content: "\e90c";
+}
+.icon-scanner_icon:before {
+  content: "\e90d";
+}
+.icon-settings_icon:before {
+  content: "\e90e";
+}
+.icon-solid_icon:before {
+  content: "\e90f";
+}
+.icon-swiss_icon:before {
+  content: "\e910";
+  color: #3fba9f;
+}
+.icon-trash_icon24:before {
+  content: "\e911";
+}
+.icon-upload_icon:before {
+  content: "\e912";
+}

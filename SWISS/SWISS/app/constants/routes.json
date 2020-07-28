@@ -1,0 +1,14 @@
+{
+  "HOME": "/",
+  "COUNTER": "/counter",
+
+  "SETTINGS": "/settings",
+  "ASSORT": "/assort",
+  "TrashList": "/TrashList",
+  "MixList": "/MixList",
+  "DataPreparation": "/DataPreparation",
+  "Screen3": "/Screen3",
+  "DownloadData": "/downloaddata",
+  "SOLID": "/solidlist",
+  "SOLID_SCAN": "/solidscanlist"
+}

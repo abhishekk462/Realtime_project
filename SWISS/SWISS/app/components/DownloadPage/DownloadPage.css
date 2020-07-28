@@ -1,0 +1,86 @@
+.container {
+    position: absolute;
+     
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #ededed;
+  }
+  #topgrid{
+      /* background-color: white; */
+      padding: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+  }
+  .swiss_NEXT{
+    padding: 4px 13px 5px 14px;
+    font-size: 12px!important;
+    float: right;
+    background-color: #3fba9f !important;
+    color: white !important;
+ }
+ 
+ #outergrid{
+    padding-left: 11px;
+}
+#grid{
+    
+    background-color: white;
+  
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#grid1{
+    
+    background-color: white;
+   margin-top: 20px;
+  
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+#horizontalline{
+    width: 95%;
+}
+.swiss_settings_table{
+    padding: 10px 20px 10px 20px;
+    /* text-align: center; */
+    }
+.swiss_form{
+    background: white!important;
+    margin: 6px 34px 12px 28px;
+    /* padding: 12px; */
+    }
+.swiss_tableBody{
+    background: white!important;
+    }
+.swiss_shimamura{
+    padding:4px!important;
+}
+.swiss_secondTable{
+    margin-left: 2rem;
+}
+.swiss_style1{
+    padding-left: 1rem!important;
+    font-size: 12px!important;
+   
+}
+.swiss_date1{
+    font-size: 12px!important;
+}
+.swiss_downloadHead{
+      font-size: 15px!important;
+}
+.swiss_dateColor{
+    color:red!important;
+    margin-left:0.3rem!important;
+}
+.swiss_columcell{
+margin-left: 0.4rem!important;
+}
+.swiss_tableHead{
+    opacity: 0.6;
+}

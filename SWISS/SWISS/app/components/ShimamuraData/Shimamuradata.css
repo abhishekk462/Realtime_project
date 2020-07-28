@@ -1,0 +1,56 @@
+.container {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background:#ededed;
+    font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  #swiss_icon:before{
+      color: #ededed ;
+      font-size: 19px;
+    margin-left: 15px;
+  }
+  #secondary{
+    font-size: 17px !important;
+    margin-top: 14px;
+  }
+  #header{
+    margin-top: 10px;
+  }
+  #drop{
+    margin-bottom: 5px;
+  }
+  #headertxt{
+    height: 50px;
+  }
+  #checktxt1{
+    margin-left: -76px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #checktxt2{
+    margin-left: -18px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-top: 8px;
+  }
+  .swiss_title{
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  #shimamura{
+   
+  }
+  /* #item1{
+    padding-left: 0px;
+    padding-right: 42px;
+  }
+  #item2{
+  
+    padding-right: 42px;
+  } */
+  #menuitem{
+    margin-top: 10px ;
+  }
