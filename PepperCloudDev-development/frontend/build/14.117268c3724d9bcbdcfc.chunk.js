@@ -1,0 +1,1 @@
+webpackJsonp([14],{"./app/containers/Leads/LeadList/reducer.js":function(e,t,n){"use strict";function a(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:s;arguments[1];return e}Object.defineProperty(t,"__esModule",{value:!0});var r=n("./node_modules/immutable/dist/immutable.js"),s=(n.n(r),n.i(r.fromJS)({username:""}));t.default=a}});

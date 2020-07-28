@@ -1,0 +1,66 @@
+
+
+@import "simple-line-icons";
+@import "./font-awesome.css";
+@import "./react-table.css";
+@import "./react-select.css";
+
+// Override bootstrap variables
+@import "app/variables";
+
+// Bootstrap
+@import "bootstrap/bootstrap/mixins";
+
+// Global definition of media queries
+@import "app/media-queries";
+// Utilities
+@import "app/utils-definitions";
+
+// Bootstrap reset
+@import "app/bootstrap-reset";
+
+// Typography
+@import "app/typo";
+
+// Layout
+@import "app/layout";
+@import "app/layout-extra";
+@import "app/layout-animation";
+@import "app/top-navbar";
+@import "app/sidebar";
+@import "app/offsidebar";
+
+// Components
+@import "app/breadcrumbs";
+@import "app/button-extra";
+@import "app/user-block";
+@import "app/dropdown-extra";
+@import "app/animate";
+
+// Utilities
+@import "app/utils";
+
+// Print CSS
+@import "app/print";
+
+// Grid themes
+@import "app/theme-grid-eprx";
+
+@import "v-grid-layout";
+@import "v-resizable";
+
+
+@import "app/common";
+
+
+@import "form-builder";
+@import "form-builder-form";
+
+@import "react-big-calendar.css";
+@import "v-notif-styles";
+// Custom css pepper
+@import "app/pepper";
+@import "app/salesforcebundle";
+@import "jquery.dataTables.min.css";
+@import "colReorder.dataTables.min.css";
+@import "responsive.dataTables.min.css";

@@ -1,0 +1,68 @@
+{
+  "label.lead.entry.title":"Lead Entry",
+  "label.lead.list.title":"Lead List",
+
+
+  "label.primary.info":"Primary Information",
+  "label.company.info": "Company Information",
+  "label.address.info" : "Address Information",
+  "label.social.info" : "Social Information",
+  "label.secondary.1.info" : "Secondary Information",
+
+
+  "label.salutation" : "Salutation",
+  "label.lead.status": "Lead Status",
+
+  "label.first.name" : "First Name",
+  "label.last.name" : "Last Name",
+  "label.person.name" : "Name",
+
+  "label.lead.assigned.to" : "Assigned To",
+  "label.company.name": "Company Name",
+  "label.lead.source": "Lead Source",
+  "label.designation" : "Designation",
+  "label.email" : "Email",
+  "label.office.number": "Office Number",
+  "label.mobile.number" : "Mobile Number",
+  "label.fax.number" : "Fax Number",
+  "label.website" : "Website",
+  "label.opportunity.list.title" : "Opportunity List",
+
+
+  "label.company.description": "Company Description",
+  "label.company.no.of.staff" : "No of Staff",
+  "label.company.main.business" : "Main Business",
+  "label.company.annual.turnover" : "Annual Turnover",
+  "label.company.industry" : "Industry",
+
+  "label.address.main" : "Address",
+  "label.address.postal.code" : "Postal Code",
+  "label.address.city" : "City",
+  "label.address.country" : "Country",
+  "label.address.state" :"State",
+
+  "label.facebook.url":"Facebook URL",
+  "label.twitter.url" : "Twitter",
+  "label.linkedin.url" : "LinkedIn",
+  "label.instagram.url" : "Instagaram",
+
+  "label.created.by" : "Created By",
+  "label.last.modified.by" : "Modified By",
+
+  "label.open.date" : "Opened Date",
+
+  "label.grid.action":"Action",
+  "label.grid.print":"Print",
+
+
+  "s010" : "Dashboard",
+  "s030" : "Opportunities",
+  "s040" : "Accounts",
+  "s050" : "Contacts",
+  "s060" : "Campaigns",
+  "s102" : "Leads",
+  "102" : "Leads"
+
+
+
+}

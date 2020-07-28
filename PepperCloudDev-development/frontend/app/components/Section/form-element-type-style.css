@@ -1,0 +1,30 @@
+
+.elmOver {
+  /*background-color: #3f729b;*/
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  height: 3rem;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 2.625rem;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 0.25rem;
+  letter-spacing: 0.125rem;
+  transition: all 0.3s ease;
+}
+
+.elmSelected {
+  /*background-color: #c7c7c7;*/
+border: 1px solid #7a43b6;
+}
+
+
+.constWidtlElem{
+  /*background-color: #00b3ee;*/
+  width: 100px;
+  margin: 0 5px 0 5px;
+}
