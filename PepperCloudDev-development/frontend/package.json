@@ -246,7 +246,7 @@
     "react-bootstrap-native-slider": "^2.0.1",
     "react-datepicker": "^0.51.0",
     "react-dom": "15.4.1",
-    "react-draft-wysiwyg": "^1.10.4",
+    "react-draft-wysiwyg": "^1.14.6",
     "react-grid-layout": "^0.14.4",
     "react-helmet": "3.2.2",
     "react-intl": "2.1.5",
